@@ -170,6 +170,11 @@ body {
     display: inherit;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 /* Sidebar */
 #sidenav {
     font-size: 12px;
@@ -193,10 +198,15 @@ body {
     padding-top: 150px;
     padding-left: 100px;
     padding-right: 100px;
+    background-color: bisque;
 }
 
 #main {
     font-weight: 300;
+}
+
+#main p {
+    color: gray;
 }
 
 #overview h4 {
