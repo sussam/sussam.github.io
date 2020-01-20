@@ -66,8 +66,9 @@ body {
     padding-left: 50px;
 }
 
-.display-3 {
-    font-weight: 500;
+#landing-inner h1 {
+    font-weight: 500 !important;
+    font-size: 4vw;
 }
 
 /*Arrow*/
