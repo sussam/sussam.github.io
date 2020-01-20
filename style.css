@@ -199,6 +199,26 @@ body {
     padding-right: 100px;
 }
 
+#main {
+    font-weight: 300;
+}
+
+#overview h4 {
+    font-weight: 700;
+}
+
+#research h4 {
+    font-weight: 700;
+}
+
+#focus_statement {
+    display: block;
+}
+
+#design_sec h4 {
+    font-weight: 700;
+}
+
 .center {
     display: block;
     margin-left: auto;
