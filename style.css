@@ -209,6 +209,10 @@ body {
     font-weight: 700;
 }
 
+#personas {
+    max-width: 50%;
+}
+
 /* Project 2 */
 .project2_view {
     height: 90vh;
@@ -224,6 +228,10 @@ body {
 
 #design_sec_2 h4 {
     background-color: bisque;
+}
+
+#personas_2 {
+    max-width: 50%;
 }
 
 /*About*/
