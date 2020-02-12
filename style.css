@@ -239,6 +239,14 @@ body {
     height: 100vh;
 }
 
+
+.aboutme .description {
+    padding: 50px;
+}
+
+.aboutme h2 {
+    font-weight: 600;
+}
 /*Footer*/
 footer {
     background-color: whitesmoke;
