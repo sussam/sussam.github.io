@@ -45,7 +45,7 @@ body {
     border-bottom: 2px solid #6BBCC0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 990px) {
     .navbar-brand {
         margin-left: 10px;
     }
