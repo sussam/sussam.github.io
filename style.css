@@ -1,12 +1,13 @@
 /* style sheet */
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,500,600,700&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
+
 body {
     overflow-x: hidden;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Navbar Styling */
@@ -17,14 +18,14 @@ body {
 
 .navbar-brand {
     margin-left: 100px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 25px;
 }
 
 .navbar-nav {
     margin-right: 100px;
     font-size: .8rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .mynav a {
@@ -60,6 +61,15 @@ body {
 .intro-inner {
     height: 90vh;
     min-height: 600px;
+    padding: 100px;
+}
+
+#landing-inner h1 {
+    font-weight: 300;
+}
+
+#landing-inner h3 {
+    font-weight: 100;
 }
 
 /*Arrow*/
@@ -238,7 +248,6 @@ body {
 .aboutme {
     height: 100vh;
 }
-
 
 .aboutme .description {
     padding: 50px;
