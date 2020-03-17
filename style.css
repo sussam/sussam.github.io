@@ -223,9 +223,23 @@ body {
     max-width: 50%;
 }
 
+#overview h4 {
+    background-color: #F8E5DF;
+}
+
+#research h4 {
+    background-color: #F8E5DF;
+}
+
+#design_sec h4 {
+    background: #F8E5DF;
+}
+
 /* Project 2 */
 .project2_view {
     height: 90vh;
+    text-align: center;
+    padding: 200px;
 }
 
 #overview_2 h4 {
