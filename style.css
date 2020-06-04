@@ -72,6 +72,12 @@ body {
     font-weight: 100;
 }
 
+.portrait {
+    width: 115%;
+    margin-top: -50px;
+    max-width: 100%;
+}
+
 /*Arrow*/
 #arrow_down {
     position: absolute;
