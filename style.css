@@ -264,6 +264,15 @@ body {
     max-width: 50%;
 }
 
+/*AI_Education Project*/
+#personas_ai img {
+    max-width: 50%;
+}
+
+#recruit_2 .ai_interview {
+    max-width: 50%;
+}
+
 /*About*/
 .aboutme {
     height: 100vh;
