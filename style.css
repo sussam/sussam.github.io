@@ -18,8 +18,16 @@ body {
 
 .navbar-brand {
     margin-left: 100px;
-    font-weight: 400;
-    font-size: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand .logo_hover {
+    display: none;
+    position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
 }
 
 .navbar-nav {
@@ -38,7 +46,14 @@ body {
 
 .navbar-brand:hover {
     border-bottom: 2px transparent !important;
+}
 
+.navbar-brand:hover .logo_hover {
+    display: inline;
+}
+
+.navbar-brand a{
+    width: 100% !important;
 }
 
 .active a {
