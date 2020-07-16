@@ -25,9 +25,8 @@ body {
 .navbar-brand .logo_hover {
     display: none;
     position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
+    left: 0;
+    z-index: 99;
 }
 
 .navbar-nav {
