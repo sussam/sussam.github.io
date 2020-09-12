@@ -218,6 +218,10 @@ body {
     font-weight: 600;
 }
 
+#left {
+    background-color: #F9F9F9;
+}
+
 /* Project 1 */
 .project1_view {
     height: 90vh;
@@ -243,7 +247,7 @@ body {
     max-width: 50%;
 }
 
-#overview h4 {
+/*#overview h4 {
     background-color: #F8E5DF;
 }
 
@@ -253,7 +257,7 @@ body {
 
 #design_sec h4 {
     background: #F8E5DF;
-}
+}*/
 
 /* Project 2 */
 .project2_view {
@@ -262,7 +266,7 @@ body {
     padding: 200px;
 }
 
-#overview_2 h4 {
+/*#overview_2 h4 {
     background-color: bisque;
 }
 
@@ -273,6 +277,7 @@ body {
 #design_sec_2 h4 {
     background-color: bisque;
 }
+*/
 
 #personas_2 {
     max-width: 50%;
