@@ -1,5 +1,5 @@
 /* style sheet */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -7,13 +7,13 @@ html {
 
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /* Navbar Styling */
 .mynav {
-    background: white !important;
-    text-transform: uppercase;
+   background-color: white !important;
+    text-transform: lowercase;
 }
 
 .navbar-brand {
@@ -33,6 +33,10 @@ body {
     margin-right: 100px;
     font-size: .8rem;
     font-weight: 700;
+}
+
+.nav-item {
+    color: white !important;
 }
 
 .mynav a {
@@ -67,19 +71,22 @@ body {
 
 /*Landing Page*/
 .landing {
-    height: 90vh;
+    background: white;
+    height: 55vh;
     overflow: hidden;
     position: relative;
 }
 
 .intro-inner {
-    height: 90vh;
+    height: 55vh;
     min-height: 600px;
-    padding: 100px;
+    padding: 50px;
+    text-align: center;
 }
 
 #landing-inner h1 {
     font-weight: 300;
+    text-align: center;
 }
 
 #landing-inner h3 {
@@ -95,7 +102,7 @@ body {
 /*Arrow*/
 #arrow_down {
     position: absolute;
-    bottom: 10vh;
+    bottom: 5vh;
     left: 0;
     right: 0;
     text-align: center;
@@ -172,11 +179,15 @@ body {
     overflow: hidden;
 }
 
-.row {
+.works {
+    background: rgb(240, 237, 235);
+}
+
+/*.row {
     display: flex;
     flex-wrap: wrap;
     padding-right: 0;
-}
+}*/
 
 .img-zoom {
     transition: 0.3s ease;
@@ -220,7 +231,7 @@ body {
 
 /* Project 1 */
 .project1_view {
-    height: 90vh;
+    height: 55vh;
 }
 
 #main {
@@ -257,9 +268,13 @@ body {
 
 /* Project 2 */
 .project2_view {
-    height: 90vh;
+    height: 55vh;
     text-align: center;
-    padding: 200px;
+    padding: 100px;
+}
+
+#main {
+    background: rgb(240, 237, 235);
 }
 
 /*#overview_2 h4 {
@@ -275,7 +290,8 @@ body {
 }
 */
 
-#personas_2 {
+
+#personas_2 img {
     max-width: 50%;
 }
 
@@ -292,9 +308,55 @@ body {
     max-width: 50%;
 }
 
+/* AI Education Edited */
+.ai_description {
+        background: white;
+        height: 55vh;
+        overflow: hidden;
+        position: relative;
+}
+
+#ai_education {
+    background: rgb(240, 237, 235);
+}
+
+#ai_proposal {
+    background: white;
+}
+
+#ai_personas img,
+#ai_research img {
+    max-width: 100%;
+}
+
+#ai_research {
+    background: rgb(253, 247, 247);
+}
+
+#ai_design {
+    background: rgb(241, 241, 241);
+}
+
+#ai_design img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#ai_mockups {
+    background: rgb(241, 241, 241);
+}
+
+#ai_learnings {
+    background: rgb(241, 241, 241);
+}
+
+
 /*About*/
 .aboutme {
     height: 100vh;
+    background: rgb(240, 237, 235);
 }
 
 .aboutme .description {
@@ -306,7 +368,7 @@ body {
 }
 /*Footer*/
 footer {
-    background-color: whitesmoke;
+    background-color: white;
     text-transform: lowercase;
 }
 
@@ -322,4 +384,8 @@ footer {
 
 .smed i:hover {
     color: #6BBCC0;
+}
+
+.test_container {
+    background-color: #3F8C90;
 }
