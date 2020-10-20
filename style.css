@@ -322,7 +322,7 @@ p {
 }
 
 #ai_education {
-    background: rgb(240, 237, 235);
+    background: #9e4940;
 }
 
 #ai_proposal {
@@ -339,7 +339,7 @@ p {
 }
 
 #ai_design {
-    background: rgb(241, 241, 241);
+    background: rgb(253, 247, 247);
 }
 
 #ai_design img {
@@ -350,12 +350,18 @@ p {
 }
 
 #ai_mockups {
-    background: rgb(241, 241, 241);
+    background: #9e4940;
 }
 
 #ai_learnings {
-    background: rgb(241, 241, 241);
+    background: rgb(253, 247, 247);
 }
+
+/*Sublist Edited */
+#sublist_problem {
+    background: #410e02;
+}
+
 
 
 /*About*/
