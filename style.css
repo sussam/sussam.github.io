@@ -382,7 +382,7 @@ p {
 
 /*LPRC*/
 #lprc_wireframes img {
-    max-width: 48%;
+    width: 100%;
 }
 
 #lprc_diagrams img {
@@ -391,7 +391,7 @@ p {
 
 #lprc_prototype img {
     padding-right: 15px;
-    max-width: 50%;
+    width: 100%;
 }
 
 /*Yantra*/
@@ -403,6 +403,22 @@ p {
 
 .img_size {
     max-width: 60%;
+}
+
+#ai_mockups_popups .img_size {
+    max-width: 45%;
+}
+
+#lprc_wireframes .img_size {
+    max-width: 48%;
+}
+
+#lprc_prototype .img_size {
+    max-width: 40%;
+}
+
+#sublist_design .img_size {
+    max-width: 75%;
 }
 
 /*Google Photos*/
