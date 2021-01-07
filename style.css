@@ -396,9 +396,13 @@ p {
 
 /*Yantra*/
 #yantra_initial img {
-    max-width: 60%;
+    width: 100%;
     padding-right: 15px;
     padding-bottom: 15px;
+}
+
+.img_size {
+    max-width: 60%;
 }
 
 /*Google Photos*/
