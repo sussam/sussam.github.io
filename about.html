@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
     <script src="https://kit.fontawesome.com/a1079f346f.js" crossorigin="anonymous"></script>
 
@@ -49,28 +50,28 @@
 
     <!-- Abouts Section -->
     <section class="aboutme">
-        <div class="container d-flex" id="pad">
-            <div class="col">
-                <figure>
+        <div class="container" id="pad">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <img src="images/me/self_portrait.png" class="img-fluid rounded">
-                </figure>
-            </div>
-            <div class="col description">
-                <h2>Hello! <br>
-                    I'm Sam.
-                </h2>
-                <br>
-                <p>I am a User Experience Designer who is currently a 4th year studying Computer Science at the
-                    University of Florida located in Gainesville, Florida.
-                    <br>
-                    <br>
-                    Right now, I am interning as a UX Designer at YANTRAedu.com.
-                    Contact me at <b>sus@ufl.edu</b> to learn more about me or any of my case studies!
-                    <br>
-                    <br>
-                    In my freetime, I enjoy
-                    drawing, doodling and hand-lettering!
-                </p>
+                </div>
+                <div class="col_ twocol">
+                    <h2>Hello! <br>
+                        I'm <span style="color: #6BBCC0">Sam</span>.
+                    </h2>
+                    <p>I am a User Experience Designer who is currently a 4th year studying Computer Science at the
+                        <span style="color: #6BBCC0"><b>University of Florida</b></span> located in Gainesville,
+                        Florida.
+                        <br>
+                        <br>
+                        Right now, I am interning as a UX Designer at YANTRAedu.com.
+                        Contact me at <b>sus@ufl.edu</b> to learn more about me or any of my case studies!
+                        <br>
+                        <br>
+                        In my freetime, I enjoy
+                        drawing, doodling and hand-lettering!
+                    </p>
+                </div>
             </div>
         </div>
     </section>

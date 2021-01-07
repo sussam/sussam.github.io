@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
     <script src="https://kit.fontawesome.com/a1079f346f.js" crossorigin="anonymous"></script>
 
@@ -20,7 +21,7 @@
 
 <body>
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav works_view">
         <a class="navbar-brand" href="index.html">
             <img src="images/me/logo.png" width="70" height="70" class="logo">
             <img src="images/me/logo_hover.png" width="70" height="70" class="logo_hover">
@@ -50,22 +51,25 @@
     <!-- AI Education Page Section-->
     <section class="ai_description">
         <div class="container">
-            <div class="row intro-inner">
-                <div class="col" id="landing-inner">
+            <div class="intro-inner">
+                <div id="landing-title">
                     <h4><b>AI Education</b></h4><br>
-                    <p>Understanding whether learning in-site was effective</p>
+                    <p>Understanding whether learning in-site was effective</p><br>
                 </div>
-                <div class="col-4">
-                    <p style="text-align: left;">What I did</p>
-                    <p style="text-align: left; color: gray;">UX & HCI Research, <br> UX Design, <br> Testing </p>
-                    <p style="text-align: left;">Timeline</p>
-                    <p style="text-align: left; color: gray;">January 2020 - May 2020 <br> Team of 3 Researchers</p>
+                <div id="landing-desc">
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span style="color:black">What I
+                            did</span>
+                        <br> UX & HCI
+                        Research,<br> UX Design,
+                        <br>Testing
+                    </p>
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span
+                            style="color: black">Timeline</span><br>
+                        2020 - May
+                        2020
+                        <br> Team of 3 Researchers
+                    </p>
                 </div>
-                <!--<div class="col-5">
-                    <img src="images/me/self_portrait.png" class="portrait">
-                </div>-->
-                <!--<div class="col-md-6">
-                </div>-->
                 <div class="arrow bounce" id="arrow_down">
                     <a class="fas fa-chevron-down fa-2x" href="#ai_education"></a>
                 </div>
@@ -77,8 +81,8 @@
     <!-- Project Description Section -->
     <section id="ai_education">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #ee746c;"><b>The Problem</b></h3>
                     <p>• Artificial Intelligence (AI) is use widely throughout a variety of
                         platforms.
@@ -105,8 +109,8 @@
 
     <section id="ai_proposal">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #ee746c;"><b>Proposal</b></h3>
                     <p>• The study was designed to evaluate which two different methods of AI
                         education delivery to understand which is most effective for building
@@ -139,8 +143,8 @@
 
     <section id="ai_research">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #ee746c;"><b>User Research</b></h3>
                     <p>The goal of the interviews were to understand how much AI potential users may
                         know about AI and which AI learning topics they would be interested in
@@ -153,7 +157,7 @@
                         topics are users curious about?
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol interview">
                     <h3 style="color: #ee746c;"><b>Interviews</b></h3>
                     <p>We conducted six interviews with potential users.
                         The
@@ -173,8 +177,8 @@
 
     <section id="ai_personas">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #ee746c;"><b>User Needs</b></h3>
                     <p>
                         When analyzing the notes from the interviews, we found that the majority has
@@ -194,8 +198,8 @@
 
     <section id="ai_personas">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #ee746c;"><b>Personas</b></h3><br>
                     <p>
                         Because a lot of the interviewees only knew about a few features, we decided to really focus on
@@ -211,10 +215,11 @@
                         Thus, the two personas were developed for the study. Both personas were
                         created
                         to be
-                        similar, having almost identical interests and daily lives. </p>
+                        similar, having almost identical interests and daily lives.
+                    </p>
                 </div>
-                <div class="col">
-                    <img src="images/ai-education/ai_persona1.jpg" class="img responsive" alt="persona_ai1"><br><br>
+                <div class="col_ twocol" id="ai_personas_img">
+                    <img src="images/ai-education/ai_persona1.jpg" class="img responsive" alt="persona_ai1"><br>
                     <img src="images/ai-education/ai_persona2.jpg" class="img responsive" alt="persona_ai2">
                 </div>
             </div>
@@ -234,8 +239,8 @@
 
     <section id="ai_design">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #ee746c;"><b>Problem Solving & Challenges</b></h3><br>
                     <p>One problem we had to solve was how or what the user interacts with in order to learn about the
                         features of AI within the website.
@@ -265,7 +270,7 @@
                         when the user hovers over an AI feature.
                         <br>
                     </p>
-                    <div class="col">
+                    <div class="col_">
                         <img src="images/ai-education/ai_sketch.png" class="img-fluid rounded responsive"
                             style="max-width: 100%;">
                     </div>
@@ -277,8 +282,8 @@
 
     <section id="ai_challenge">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #ee746c;"><b>Challenge Summarized</b></h3><br>
                     <p>When researching about how people learn best, we found through credible
                         sources
@@ -309,9 +314,9 @@
 
     <section id="ai_mockups_webpage">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
-                    <h3 style="color: #ee746c;"><b>Prototypes - Webpage</b></h3>
+            <div class="row_">
+                <div class="col_ twocol_left">
+                    <h3 style="color: #ee746c;"><b>Prototypes</b></h3>
                     <br>
                     <img src="images/ai-education/Homepage.png" class="img-fluid rounded responsive"
                         style="max-width: 100%;">
@@ -325,7 +330,7 @@
                     <img src="images/ai-education/Search.png" class="img-fluid rounded responsive"
                         style="max-width: 100%;">
                 </div>
-                <div class="col">
+                <div class="col_ twocol">
                     <br><br><br>
                     <p>Mockups and websites were divided between my team member and me.
                         I
@@ -350,7 +355,8 @@
                         • background<br>
                         • picture<br>
                         • friends list<br>
-                        • sponsored ads</p>
+                        • sponsored ads
+                    </p>
                 </div>
             </div>
         </div>
@@ -359,13 +365,14 @@
 
     <section id="ai_mockups_popups">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
-                    <h3 style="color: #ee746c;"><b>Prototypes - Pop-up Gifs</b></h3>
-                    <img src="images/ai-education/9_social_media_machineLearning.gif"
-                        class="img-fluid rounded responsive" style="max-width: 30%;">
-                    <img src="images/ai-education/19_social_media_adsClicked.gif" class="img-fluid rounded responsive"
-                        style="max-width: 30%;">
+            <div class="col_">
+                <h3 style="color: #ee746c;"><b>Prototypes: Popups</b></h3>
+                <br>
+                <div class="row_">
+                    <img src="images/ai-education/9_social_media_machineLearning.gif" class="img rounded responsive"
+                        style="max-width: 45%; padding-right: 30px;">
+                    <img src="images/ai-education/19_social_media_adsClicked.gif" class="img rounded responsive"
+                        style="max-width: 45%;">
                 </div>
             </div>
         </div>
@@ -373,8 +380,8 @@
 
     <section id="ai_implementation">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #ee746c;"><b>Implementation</b></h3><br>
                     <p>Finally, I was able to fully implement the popups GIFS as planned
                         into a
@@ -394,7 +401,7 @@
                             non-contextualized</a>
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol">
                     <img src="images/ai-education/website_popup.png" class="img-fluid rounded responsive"
                         style="max-width: 100%;">
                     <br><br>
@@ -408,8 +415,8 @@
 
     <section id="ai_learnings">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #ee746c;"><b>Project Learnings & Reflection</b></h3><br>
                     <p>After providing another survey questioning users on specific AI features, we
                         found that there was no significant difference in the level of AI learning

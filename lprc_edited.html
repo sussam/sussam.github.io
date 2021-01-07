@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
     <script src="https://kit.fontawesome.com/a1079f346f.js" crossorigin="anonymous"></script>
 
@@ -20,7 +21,7 @@
 
 <body>
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav works_view">
         <a class="navbar-brand" href="index.html">
             <img src="images/me/logo.png" width="70" height="70" class="logo">
             <img src="images/me/logo_hover.png" width="70" height="70" class="logo_hover">
@@ -47,19 +48,22 @@
         </div>
     </nav>
 
-    <!-- AI Education Page Section-->
+    <!-- LPRC Page Section-->
     <section class="ai_description">
         <div class="container">
-            <div class="row intro-inner">
-                <div class="col" id="landing-inner">
+            <div class="intro-inner">
+                <div id="landing-inner">
                     <h4><b>Self Checkout</b></h4><br>
-                    <p>Creating a solution to prevent losses related to self-checkouts</p>
+                    <p>Creating a solution to prevent losses related to self-checkouts</p><br>
                 </div>
-                <div class="col-4">
-                    <p style="text-align: left;">What I did</p>
-                    <p style="text-align: left; color: gray;">UX & HCI Research, <br> UX Design, <br> Testing </p>
-                    <p style="text-align: left;">Timeline</p>
-                    <p style="text-align: left; color: gray;">October 2019 - December 2019 <br> Team of 4 Designers
+                <div id="landing-desc">
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span
+                            style="color: black;">Responsibilities</span><br>UX & HCI Research, <br> UX Design, <br>
+                        Testing
+                    </p>
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span
+                            style="color: black;">Timeline</span><br>October 2019 - December 2019 <br> Team of 4
+                        Designers
                     </p>
                 </div>
                 <!--<div class="col-5">
@@ -78,8 +82,8 @@
     <!-- Project Description Section -->
     <section id="lprc_problem">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #556ae2;"><b>The Problem</b></h3>
                     <br>
                     <p>The Loss Prevention Resource Council wanted us to come up with a solution
@@ -99,8 +103,8 @@
 
     <section id="lprc_proposal">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #556ae2;"><b>Proposal</b></h3>
                     <br>
                     <p>My team proposes implementing A.I. vision technology on self-checkout
@@ -143,8 +147,8 @@
 
     <section id="lprc_research">
         <div class=" container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #556ae2;"><b>User Research</b></h3>
                     <Br>
                     <p>In order to keep our interviews focused towards the focus statement, we
@@ -161,7 +165,7 @@
                         terminals.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol interview">
                     <h3 style="color: #556ae2;"><b>Interviews</b></h3>
                     <br>
                     <p>In regards to recruiting users to interview, we are targeting people that
@@ -184,8 +188,8 @@
 
     <section id="lprc_affinitydia">
         <div class=" container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #556ae2;"><b>Affinity Diagram</b></h3>
                     <img src="images/self-checkout/affinitydia.png" class="img-fluid rounded responsive"
                         style="max-width: 80%;">
@@ -206,8 +210,8 @@
 
     <section id="lprc_personas">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #556ae2;"><b>User Needs</b></h3><br>
                     <p>From our interviews and affinity diagramming we discovered three key user
                         needs. Users mentioned they were persuaded by short lines and fastness, hence user
@@ -223,7 +227,7 @@
                         yet.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol">
                     <h3 style="color: #556ae2;"><b>Personas</b></h3><br>
                     <img src="images/self-checkout/proj1_persona1.png" class="img-fluid responsive"
                         alt="persona1"><br><br>
@@ -236,8 +240,8 @@
 
     <section id="lprc_storyboard">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #556ae2;"><b>Storyboard</b></h3><br>
                     <img src="images/self-checkout/lprc_storyboard.png" class="img-fluid responsive" alt="storyboard">
                 </div>
@@ -257,48 +261,56 @@
 
     <section id="lprc_wireframes">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
-                    <h3 style="color: #556ae2;"><b>Wireframes</b></h3><br>
-                    <img src="images/self-checkout/wireframes/start_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;">
-                    <img src="images/self-checkout/wireframes/main_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;"><br><br>
-                    <img src="images/self-checkout/wireframes/search_result_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;">
-                    <img src="images/self-checkout/wireframes/item_detection_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;"><br><br>
-                    <img src="images/self-checkout/wireframes/scale_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;">
-                    <img src="images/self-checkout/wireframes/warning_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;"><br><br>
-                    <img src="images/self-checkout/wireframes/payment_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;">
-                    <img src="images/self-checkout/wireframes/card_pay_screen.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;"><br><br>
-                    <img src="images/self-checkout/wireframes/phone_pay_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;">
-                    <img src="images/self-checkout/wireframes/cash_pay_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;"><br><br>
-                    <img src="images/self-checkout/wireframes/end_wireframe.png" class="img-fluid responsive"
-                        alt="wireframes" style="max-width: 49%;">
-
-                </div>
+            <h3 style="color: #556ae2;"><b>Wireframes</b></h3><br>
+            <div class="row_">
+                <img src="images/self-checkout/wireframes/start_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes"><br><br>
+                <img src="images/self-checkout/wireframes/main_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes">
             </div>
-        </div>
+            <br>
+            <div class="row_">
+                <img src="images/self-checkout/wireframes/search_result_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes"><br><br>
+                <img src="images/self-checkout/wireframes/item_detection_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes">
+            </div>
+            <br>
+            <div class="row_">
+                <img src="images/self-checkout/wireframes/scale_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes"><br><br>
+                <img src="images/self-checkout/wireframes/warning_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes">
+            </div>
+            <br>
+            <div class="row_">
+                <img src="images/self-checkout/wireframes/payment_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes"><br><br>
+                <img src="images/self-checkout/wireframes/card_pay_screen.png" class="img-fluid responsive"
+                    alt="wireframes">
+            </div>
+            <br>
+            <div class="row_">
+                <img src="images/self-checkout/wireframes/phone_pay_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes"><br><br>
+                <img src="images/self-checkout/wireframes/cash_pay_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes">
+            </div>
+            <br>
+            <div class="row_">
+                <img src="images/self-checkout/wireframes/end_wireframe.png" class="img-fluid responsive"
+                    alt="wireframes">
+            </div>
     </section>
 
     <section id="lprc_diagrams">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
-                    <h3 style="color: #556ae2;"><b>Flow Diagrams</b></h3><br>
-                    <img src="images/self-checkout/flow_diagram.svg" class="img-fluid responsive" alt="flow_diagram"
-                        style="max-width: 49%;">
-                    <img src="images/self-checkout/flow_diagram2.svg" class="img-fluid responsive" alt="flow_diagram2"
-                        style="max-width: 49%;">
-                </div>
+            <h3 style="color: #556ae2;"><b>Flow Diagrams</b></h3><br>
+            <div class="row_">
+                <img src="images/self-checkout/flow_diagram.svg" class="img-fluid responsive" alt="flow_diagram">
+                <img src="images/self-checkout/flow_diagram2.svg" class="img-fluid responsive" alt="flow_diagram2">
             </div>
+        </div>
         </div>
     </section>
 
@@ -314,92 +326,88 @@
 
     <section id="lprc_prototype">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
-                    <h3 style="color: #556ae2;"><b>High-Fi Prototype</b></h3>
-                    <p>Link to public InVision: <a href="https://invis.io/MEUSA239HGC">https://invis.io/MEUSA239HGC
-                        </a>
-                        <br>
-                        <img src="images/self-checkout/start_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                        <img src="images/self-checkout/search_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                        <img src="images/self-checkout/id_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                        <img src="images/self-checkout/no_barcode_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                        <img src="images/self-checkout/main_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                        <img src="images/self-checkout/payment_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><Br>
-                        <img src="images/self-checkout/payment_warning_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                        <img src="images/self-checkout/attendant_screen.png" class="center img-fluid responsive"
-                            alt="prototype" style="max-width: 100%;"><br><br>
-                    </p>
-                </div>
-                <div class="col">
-                    <br><br><br>
-                    <p><b>Start Screen</b> -- User Needs 1&2<br>After the paper prototype tests, it was
-                        brought to our
-                        attention
-                        that the
-                        search
-                        bard was not on the start screen. This satisfies the user need for faster
-                        self-checkout. We
-                        added an identify item feature on the homepage, so users can quickly checkout.
-                        The identify item
-                        feature guides the user through self checkout. Therefore, covering user needs 1
-                        and 2.
-                        <br><br><br>
-                        <b>Search Result Screen</b> -- User Need 1<br>The search screen never changes
-                        throughout our
-                        design process. User need is satisfied by guiding the user through pictures in
-                        the manual
-                        process.
-                        <br><br><br><br><br><br><Br>
-                        <b>Item Identification Screen</b> -- User Need 1<br>Identify item screen is able
-                        to use a photo
-                        to identify an item. However, we did not consider the possible consequences
-                        surrounding this.
-                        Users may try to detect an item that has a barcode. User need for guided manual
-                        input and fast
-                        checkout accounted for.
-                        <br><br><br><br><br>
-                        <b>Non-barcode Warning Screen</b> -- User Need 3<br>We kept the "item detection"
-                        interface the
-                        same. However, we added a warning screen. This informs the user that they are
-                        trying to detect
-                        an item that is not barcoded. If the user remains confused, they can call the
-                        attendant over, or
-                        proceed back to the main page.
-                        <br><br><br><br><br>
-                        <b>Main Screen</b> -- User Need 1<br>After dynamic prototyping, it was brought
-                        to our attention
-                        that the user could not delete an item. Therefore, we included that feature,
-                        only if the use was
-                        not in pay mode.
-                        <br><br><br><br><br><br>
-                        <b>Payment Screen</b> -- User Need 1<br>The payment page remains the same
-                        throughout designs. We
-                        used the interaction principle of metaphors, so the user can now click a picture
-                        of money and
-                        will be directed to pay with cash.
-                        <br><br><br><br><br><br>
-                        <b>Warning Screen</b> -- User Need 1<br>There is warning that the individual
-                        tried checking out
-                        without accounting for all items in the bag.
-                        <br><br><br><br><br><br><br><br>
-                        <b>Non-barcode Warning Screen</b> -- User Need 2<br>After it was brought to our
-                        attention in the
-                        paper prototype tests, we added a waiting indicator for the attendant. This is
-                        because the user
-                        could not detect the state of the system.
-
-
-                    </p>
-                </div>
-            </div>
+            <h3 style="color: #556ae2;"><b>High-Fi Prototype</b></h3>
+            <p>Link to public InVision: <a href="https://invis.io/MEUSA239HGC">https://invis.io/MEUSA239HGC</a></p>
+            <div class="row_">
+                <img src="images/self-checkout/start_screen.png" class="center img-fluid responsive"
+                    alt="prototype"><br>
+                <p><b>Start Screen</b> -- User Needs 1&2<br>After the paper prototype tests, it was
+                    brought to our
+                    attention
+                    that the
+                    search
+                    bard was not on the start screen. This satisfies the user need for faster
+                    self-checkout. We
+                    added an identify item feature on the homepage, so users can quickly checkout.
+                    The identify item
+                    feature guides the user through self checkout. Therefore, covering user needs 1
+                    and 2.
+                    <br>
+                </p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/search_screen.png" class="center img-fluid responsive"
+                    alt="prototype"><br>
+                <p><b>Search Result Screen</b> -- User Need 1<br>The search screen never changes
+                    throughout our
+                    design process. User need is satisfied by guiding the user through pictures in
+                    the manual
+                    process.</p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/id_screen.png" class="center img-fluid responsive" alt="prototype"><br>
+                <p><b>Item Identification Screen</b> -- User Need 1<br>Identify item screen is able
+                    to use a photo
+                    to identify an item. However, we did not consider the possible consequences
+                    surrounding this.
+                    Users may try to detect an item that has a barcode. User need for guided manual
+                    input and fast
+                    checkout accounted for.</p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/no_barcode_screen.png" class="center img-fluid responsive"
+                    alt="prototype"><br>
+                <p><b>Non-barcode Warning Screen</b> -- User Need 3<br>We kept the "item detection"
+                    interface the
+                    same. However, we added a warning screen. This informs the user that they are
+                    trying to detect
+                    an item that is not barcoded. If the user remains confused, they can call the
+                    attendant over, or
+                    proceed back to the main page.</p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/main_screen.png" class="center img-fluid responsive" alt="prototype"><br>
+                <p><b>Main Screen</b> -- User Need 1<br>After dynamic prototyping, it was brought
+                    to our attention
+                    that the user could not delete an item. Therefore, we included that feature,
+                    only if the use was
+                    not in pay mode.</p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/payment_screen.png" class="center img-fluid responsive"
+                    alt="prototype"><br>
+                <p><b>Payment Screen</b> -- User Need 1<br>The payment page remains the same
+                    throughout designs. We
+                    used the interaction principle of metaphors, so the user can now click a picture
+                    of money and
+                    will be directed to pay with cash.</p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/payment_warning_screen.png" class="center img-fluid responsive"
+                    alt="prototype"><br>
+                <p><b>Warning Screen</b> -- User Need 1<br>There is warning that the individual
+                    tried checking out
+                    without accounting for all items in the bag.</p>
+            </div><br>
+            <div class="row_">
+                <img src="images/self-checkout/attendant_screen.png" class="center img-fluid responsive"
+                    alt="prototype"><br>
+                <p><b>Non-barcode Warning Screen</b> -- User Need 2<br>After it was brought to our
+                    attention in the
+                    paper prototype tests, we added a waiting indicator for the attendant. This is
+                    because the user
+                    could not detect the state of the system.</p>
+            </div><br>
         </div>
     </section>
 

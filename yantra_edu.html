@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
     <script src="https://kit.fontawesome.com/a1079f346f.js" crossorigin="anonymous"></script>
 
@@ -20,7 +21,7 @@
 
 <body>
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav works_view">
         <a class="navbar-brand" href="index.html">
             <img src="images/me/logo.png" width="70" height="70" class="logo">
             <img src="images/me/logo_hover.png" width="70" height="70" class="logo_hover">
@@ -49,20 +50,21 @@
 
     <!-- AI Education Page Section-->
     <section class="ai_description">
-        <div class="container">
-            <div class="row intro-inner">
-                <div class="col" id="landing-inner">
+        <div class="container work_titles">
+            <div class="intro-inner">
+                <div id="landing-inner">
                     <h4><b>YANTRA</b></h4><br>
                     <p>Designing & redesigning YANTRAedu.com. <br>
                         A platform designed for instructors integrating the flipped-classroom for coding practices.</p>
+                    <br>
                 </div>
-                <div class="col-4">
-                    <p style="text-align: left;">Role & Responsibilities</p>
-                    <p style="text-align: left; color: gray;">UI/UX Design <br>
+                <div id="landing-desc">
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span style="color: black">
+                            Responsibilities</span><br>UI/UX Design <br>
                         Site-mapping, user flows,
-                        low & hi-fidelity wireframing, prototyping <br>
-                    <p style="text-align: left;">Timeline</p>
-                    <p style="text-align: left; color: gray;">Sept 2020 -- current <br></p>
+                        low & hi-fidelity wireframing, prototyping </p>
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span
+                            style="color: black">Timeline</span><br> 2020 -- current <br></p>
                 </div>
                 <!--<div class="col-5">
                     <img src="images/me/self_portrait.png" class="portrait">
@@ -70,7 +72,7 @@
                 <!--<div class="col-md-6">
                 </div>-->
                 <div class="arrow bounce" id="arrow_down">
-                    <a class="fas fa-chevron-down fa-2x" href="#ai_education"></a>
+                    <a class="fas fa-chevron-down fa-2x" href="#yantra_initial"></a>
                 </div>
             </div>
         </div>
@@ -82,32 +84,27 @@
         <div class="container" id="pad">
 
             <h3 style="color: #6E5FFE;"><b>Initial Web Design</b></h3>
-            <div class="row">
-                <div class="col-4">
-                    <br>
-                    <p>It is crucial to familiar myself with the flipped-classroom style of teaching. <br><br>
-
-                        At first hand, we can see that there are three main pages that are accessible.<br></p>
-                    <br><br>
-
-                    <h5>Dashboard</h5>
-                    <p>Allows users to view their current classes</p>
-                    <br><br>
-
-                    <h5>Assignments</h5>
-                    <p>Immediately, assignments are in tabs that allow for the user to quickly view when the quizzes
-                        start and end, and what percent proficiency they must reach in order to obtain full points.</p>
-                </div>
-                <div class="col">
-                    <br>
-                    <img src="images/yantra/dash_yantra.png" class="img responsive">
-                    <br> <br>
-                    <img src="images/yantra/quizzes_yantra.png" class="img responsive">
-                    <br> <br>
-                    <img src="images/yantra/quizzes2_yantra.png" class="img responsive">
-                </div>
+            <div class="row_">
+                <p>It is crucial to familiar myself with the flipped-classroom style of teaching. <br>
+                    At first hand, we can see that there are three main pages that are accessible.<br></p>
             </div>
-        </div>
+            <div class="row_">
+                <img src="images/yantra/dash_yantra.png" class="img responsive"><br>
+                <p>
+                    <b>Dashboard</b><br>
+                    Allows users to view their current classes
+                </p>
+            </div>
+            <div class="row_">
+                <img src="images/yantra/quizzes_yantra.png" class="img responsive"><br>
+                <p><b>Assignments</b><br>
+                    Immediately, assignments are in tabs that allow for the user to quickly view
+                    when the quizzes
+                    start and end, and what percent proficiency they must reach in order to obtain full points.</p>
+            </div>
+            <div class="row_">
+                <img src="images/yantra/quizzes2_yantra.png" class="img responsive">
+            </div>
     </section>
 
     <section id="yantra_users" style="background: #6E5FFE;">
@@ -125,8 +122,8 @@
 
     <section id="yantra_research">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #6E5FFE;"><b>Research Objectives</b></h3>
                     <Br>
                     <p>Before starting the design process, it is important that I understand what I'm looking for and
@@ -136,7 +133,7 @@
                         3. Understand what questions the user may need answers for
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol interview">
                     <h3 style="color: #6E5FFE;"><b>Who I talked to</b></h3>
                     <br>
                     <p>Luckily, the head of YANTRA who I am working with is also an instructor. I was able to ask him
@@ -152,14 +149,15 @@
 
     <section id="yantra_personas">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color: #6E5FFE;"><b>Personas</b></h3><br>
                     <p>After reviewing my instructors answers, a person was developed to make sure that the design
                         fulfills the requirements and tasks.</p>
                 </div>
-                <div class="col">
-                    <img src="images/yantra/yantra_persona.png" class="img responsive" alt="persona_ai1"><br><br>
+                <div class="col_ twocol">
+                    <img src="images/yantra/yantra_persona.png" class="img responsive" alt="persona_ai1"
+                        style="max-width: 100%;"><br><br>
                 </div>
             </div>
         </div>
@@ -178,15 +176,16 @@
 
     <section id="yantra_wireframes">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #6E5FFE;"><b>Wireframes</b></h3><br>
                     <p>My first task was to improve the class and quiz view. I made quick wireframes and user flows to
                         show how the user can quickly access features.
                         <br>
                         <br>
                     </p>
-                    <img src="images/yantra/YANTRA_wireframes.png" class="img-fluid rounded responsive">
+                    <img src="images/yantra/YANTRA_wireframes.png" class="img-fluid rounded responsive"
+                        style="max-width: 100%;">
                 </div>
             </div>
         </div>
@@ -204,14 +203,14 @@
 
     <section id="yantra_visuals">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #6E5FFE;"><b>Visuals</b></h3><br>
                     <p>To make sure the pages are organized and aesthetically pleasing, I made sure the colors and fonts
                         were
                         cohesive and consistent.
                     </p>
-                    <img src="images/yantra/visuals.png" class="img-fluid rounded responsive">
+                    <img src="images/yantra/visuals.png" class="img-fluid rounded responsive" style="max-width: 100%;">
                 </div>
             </div>
         </div>

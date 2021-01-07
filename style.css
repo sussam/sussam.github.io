@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@media only screen and (min-width: 600px) {
 html {
     scroll-behavior: smooth;
 }
@@ -19,6 +20,10 @@ p {
 .mynav {
    background-color: white !important;
     text-transform: lowercase;
+}
+
+.works_view {
+    background-color: rgb(250, 245, 239) !important;
 }
 
 .navbar-brand {
@@ -68,11 +73,11 @@ p {
     border-bottom: 2px solid #6BBCC0;
 }
 
-@media only screen and (max-width: 990px) {
+/*@media only screen and (max-width: 990px) {
     .navbar-brand {
         margin-left: 10px;
     }
-}
+}*/
 
 /*Landing Page*/
 .landing {
@@ -85,8 +90,42 @@ p {
 .intro-inner {
     height: 55vh;
     min-height: 600px;
-    padding: 50px;
     text-align: center;
+    display: flex;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#landing-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#landing-desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+}
+
+.row_ {
+    display: flex;
+    flex-direction: row;
+}
+
+.col_ {
+    display: flex;
+    flex-direction: column;
+}
+
+.twocol {
+    flex: 1 1 0px;
+}
+
+.twocol_left {
+    flex: 1 1 0px;
+    padding-right: 30px;
 }
 
 #landing-inner h1 {
@@ -197,12 +236,6 @@ p {
     background: rgb(250, 245, 239);
 }
 
-/*.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 0;
-}*/
-
 .img-zoom {
     transition: 0.3s ease;
     display: inline-block;
@@ -210,6 +243,10 @@ p {
 
 .works .row {
     padding-bottom: 10px;
+}
+
+.sixthcard img{
+    display: none;
 }
 
 .img-zoom img {
@@ -268,18 +305,6 @@ p {
     max-width: 50%;
 }
 
-/*#overview h4 {
-    background-color: #F8E5DF;
-}
-
-#research h4 {
-    background-color: #F8E5DF;
-}
-
-#design_sec h4 {
-    background: #F8E5DF;
-}*/
-
 /* Project 2 */
 .project2_view {
     height: 55vh;
@@ -291,28 +316,11 @@ p {
     background: rgb(240, 237, 235);
 }
 
-/*#overview_2 h4 {
-    background-color: bisque;
-}
-
-#research_2 h4 {
-    background-color: bisque;
-}
-
-#design_sec_2 h4 {
-    background-color: bisque;
-}
-*/
-
-
 #personas_2 img {
     max-width: 50%;
 }
 
 /*AI_Education Project*/
-/*#overview_2 h4 {
-    background-color: #3F8C90;
-}*/
 
 #personas_ai img {
     max-width: 50%;
@@ -324,21 +332,30 @@ p {
 
 /* AI Education Edited */
 .ai_description {
-        background:  white;
+        background:  rgb(250, 245, 239);
         height: 55vh;
         overflow: hidden;
         position: relative;
-}
-
-#ai_education {
-    /*background: #9e4940;*/
+        text-align: center;
 }
 
 #ai_proposal {
     background: white;
 }
 
-#ai_personas img,
+#ai_personas_img {
+    display: flex;
+    flex-direction: column;
+}
+
+#ai_personas img {
+    max-width: 100%;
+}
+
+#ai_research .interview {
+    padding-left: 50px;
+}
+
 #ai_research img {
     max-width: 100%;
 }
@@ -363,17 +380,44 @@ p {
     background: #410e02;
 }*/
 
+/*LPRC*/
+#lprc_wireframes img {
+    max-width: 48%;
+}
 
+#lprc_diagrams img {
+    max-width: 48%;
+}
+
+#lprc_prototype img {
+    padding-right: 15px;
+    max-width: 50%;
+}
+
+/*Yantra*/
+#yantra_initial img {
+    max-width: 60%;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/*Google Photos*/
+
+#google_solution img {
+    padding-bottom: 35px;
+    max-width: 65%;
+}
 
 /*About*/
-.aboutme {
+/*.aboutme {
     height: 100vh;
-    /*background: rgb(240, 237, 235);*/
+    background: rgb(240, 237, 235);
+}*/
+
+.aboutme img {
+    max-width: 100%;
 }
 
-.aboutme .description {
-    padding: 50px;
-}
 
 .aboutme h2 {
     font-weight: 600;
@@ -400,4 +444,5 @@ footer {
 
 .test_container {
     background-color: #3F8C90;
+}
 }

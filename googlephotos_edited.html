@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 
     <script src="https://kit.fontawesome.com/a1079f346f.js" crossorigin="anonymous"></script>
 
@@ -20,7 +21,7 @@
 
 <body>
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav works_view">
         <a class="navbar-brand" href="index.html">
             <img src="images/me/logo.png" width="70" height="70" class="logo">
             <img src="images/me/logo_hover.png" width="70" height="70" class="logo_hover">
@@ -50,16 +51,19 @@
     <!-- AI Education Page Section-->
     <section class="ai_description">
         <div class="container">
-            <div class="row intro-inner">
-                <div class="col" id="landing-inner">
+            <div class="intro-inner">
+                <div id="landing-inner">
                     <h4><b>Google Photos</b></h4><br>
-                    <p>Improving mobile app interface to be more user friendly.</p>
+                    <p>Improving mobile app interface to be more user friendly.</p><br>
                 </div>
-                <div class="col-4">
-                    <p style="text-align: left;">What I did</p>
-                    <p style="text-align: left; color: gray;">UX & HCI Research, <br> UX Design, <br> Testing </p>
-                    <p style="text-align: left;">Timeline</p>
-                    <p style="text-align: left; color: gray;">October 2019 - December 2019 <br> Team of 4 Designers</p>
+                <div id="landing-desc">
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span
+                            style="color: black;">Responsibilities</span><br> & HCI Research, <br> UX Design, <br>
+                        Testing
+                    </p>
+                    <p class="smalldesc" style="text-align: left; color: gray;"><span
+                            style="color: black;">Timeline</span><br>October 2019 - December 2019 <br> Team of 4
+                        Designers</p>
                 </div>
                 <!--<div class="col-5">
                     <img src="images/me/self_portrait.png" class="portrait">
@@ -67,7 +71,7 @@
                 <!--<div class="col-md-6">
                 </div>-->
                 <div class="arrow bounce" id="arrow_down">
-                    <a class="fas fa-chevron-down fa-2x" href="#ai_education"></a>
+                    <a class="fas fa-chevron-down fa-2x" href="#google_education"></a>
                 </div>
             </div>
         </div>
@@ -77,8 +81,8 @@
     <!-- Project Description Section -->
     <section id="google_education">
         <div class=" container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color: #2a9e85;"><b>The Problem</b></h3>
                     <br>
                     <p>Since its release in 2015, Google Photos has provided iOS, Android, and web
@@ -106,8 +110,8 @@
 
     <section id="google_proposal">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h3 style="color:  #2a9e85;"><b>Proposal</b></h3>
                     <br>
                     <p>Google Photos is a photo storage and sharing service accessible through web
@@ -126,8 +130,8 @@
 
     <section id="ai_process" style="background: #2a9e85;">
         <div class="container" id="title_pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_">
                     <h1 style="color: white; text-align: center;"><b>UNDERSTANDING THE USER</b></h2>
                 </div>
             </div>
@@ -137,8 +141,8 @@
 
     <section id="google_research">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color:  #2a9e85;"><b>User Research</b></h3>
                     <Br>
                     <p>Setting out with the goal of understanding the motivations behind using photo
@@ -154,7 +158,7 @@
                         “helpful” and photo sharing “enjoyable”
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol interview">
                     <h3 style="color:  #2a9e85;"><b>Interviews</b></h3>
                     <br>
                     <p>We conducted five interviews with potential users from our UX Design class.
@@ -174,8 +178,8 @@
 
     <section id="google_personas">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
+            <div class="row_">
+                <div class="col_ twocol_left">
                     <h3 style="color:  #2a9e85;"><b>User Needs</b></h3><br>
                     <p>1. Have additional photo storage to save phone space<br>
                         2. Upload, access, and manage photos easily and quickly<br>
@@ -184,11 +188,11 @@
                         5. Share large quantities of photos at once<br>
                     </p>
                 </div>
-                <div class="col">
+                <div class="col_ twocol interview">
                     <h3 style="color:  #2a9e85;"><b>Personas</b></h3>
                     <img src="images/google-photos/proj2_persona1.png" class="img responsive" alt="persona1"
                         style="max-width: 70%;">
-                    <br><br>
+                    <br>
                     <img src="images/google-photos/proj2_persona2.png" class="img responsive" alt="persona2"
                         style="max-width: 70%;">
                 </div>
@@ -209,25 +213,14 @@
 
     <section id="google_solution">
         <div class="container" id="pad">
-            <div class="row">
-                <div class="col">
-                    <h3 style="color:  #2a9e85;"><b>Solution</h3><br>
-                    <div class="row">
-                        <div class="col">
-                            <img src="images/google-photos/solution1.png" class="img-fluid rounded responsive"
-                                alt="prototype">
-                        </div>
-                        <div class="col">
-                            <img src="images/google-photos/solution2.png" class="img-fluid rounded responsive"
-                                alt="prototype">
-                        </div>
-                        <div class="col">
-                            <img src="images/google-photos/solution3.png" class="img-fluid rounded responsive"
-                                alt="prototype">
-                        </div>
-                    </div>
-                </div>
+            <h3 style="color:  #2a9e85;"><b>Solution</h3><br>
+            <div class="col_">
+                <img src="images/google-photos/solution1.png" class="img-fluid rounded responsive" alt="prototype">
+                <img src="images/google-photos/solution2.png" class="img-fluid rounded responsive" alt="prototype">
+                <img src="images/google-photos/solution3.png" class="img-fluid rounded responsive" alt="prototype">
             </div>
+        </div>
+        </div>
         </div>
     </section>
 
