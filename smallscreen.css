@@ -175,6 +175,20 @@
         max-width: 100%;
     }
 
+    /* LPRC */
+    #lprc_wireframes .img_size {
+        max-width: 48%;
+    }
+    
+    #lprc_prototype .img_size {
+        max-width: 100%;
+    }
+
+    #lprc_prototype img {
+        padding-right: 15px;
+        width: 100%;
+    }
+
     /*YANTRA*/
     #yantra_initial img {
         max-width: 100%;
