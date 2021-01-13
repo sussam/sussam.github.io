@@ -1,6 +1,7 @@
 /* style sheet */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @media only screen and (min-width: 1000px) {
 html {
@@ -9,11 +10,14 @@ html {
 
 body {
     overflow-x: hidden;
-    font-family: 'IBM Plex Mono', monospace;
+    /*font-family: 'Inter', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    color: gray;
 }
 
 /* Navbar Styling */
@@ -22,9 +26,9 @@ p {
     text-transform: lowercase;
 }
 
-.works_view {
+/*.works_view {
     background-color: rgb(250, 245, 239) !important;
-}
+}*/
 
 .navbar-brand {
     margin-left: 100px;
@@ -42,7 +46,7 @@ p {
 .navbar-nav {
     margin-right: 100px;
     font-size: .8rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .nav-item {
@@ -87,6 +91,14 @@ p {
     position: relative;
 }
 
+.intro-title {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    height: auto;
+}
+
 .intro-inner {
     height: 55vh;
     min-height: 600px;
@@ -129,12 +141,13 @@ p {
 }
 
 #landing-inner h1 {
-    font-weight: 300;
-    text-align: center;
+    font-weight: 400;
+    text-align: left;
 }
 
 #landing-inner h3 {
     font-weight: 100;
+    text-align: left;
 }
 
 .portrait {
@@ -217,7 +230,7 @@ p {
   }
 
 /*Works*/
-#pad {
+#works_pad {
     padding-left: 170px;
     padding-right: 170px;
     padding-top: 50px;
@@ -226,11 +239,34 @@ p {
     overflow: hidden;
 }
 
-#title_pad {
-    padding: 90px;
+#pad {
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 50px;
     position: relative;
     overflow: hidden;
 }
+
+#title_pad {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.center_ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#ai_process {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}*/
 
 .works {
     background: rgb(250, 245, 239);
@@ -277,7 +313,7 @@ p {
 #sidenav .nav-link:hover,
 #sidenav .nav-link:focus{
     color: #6BBCC0;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* Project 1 */
@@ -332,8 +368,7 @@ p {
 
 /* AI Education Edited */
 .ai_description {
-        background:  rgb(250, 245, 239);
-        height: 55vh;
+        /*height: 100vh;*/
         overflow: hidden;
         position: relative;
         text-align: center;
@@ -381,17 +416,62 @@ p {
 }*/
 
 /*LPRC*/
-#lprc_wireframes img {
+.ai_description .img_size {
+    max-width: 100%;
+}
+
+.lprc_affinitydia, .img_size {
+    max-width: 100;
+}
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);*/
+
+#lprc_wireframes img,
+.lprc_affinitydia img,
+.ai_description img,
+#lprc_storyboard img,
+#lprc_palette img,
+#lprc_paperproto img {
+    width: 100%;
+}
+
+#lprc_storyboard .img_size {
+    max-width: 100%;
+}
+
+#lprc_paperproto .img_size {
+    max-width: 100%;
+}
+
+#lprc_personas .img_size {
+    max-width: 100%;
+}
+
+#lprc_diagrams .img_size {
+    max-width: 100%;
+}
+
+#lprc_personas img {
     width: 100%;
 }
 
 #lprc_diagrams img {
-    max-width: 48%;
+    max-width: 100%;
 }
 
 #lprc_prototype img {
     padding-right: 15px;
     width: 100%;
+}
+
+#lprc_palette .img_size {
+    max-width: 55%;
+}
+
+.bordered_text {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #6BBCC0;
+    padding: 30px;
 }
 
 /*Yantra*/
@@ -410,7 +490,7 @@ p {
 }
 
 #lprc_wireframes .img_size {
-    max-width: 48%;
+    max-width: 100%;
 }
 
 #lprc_prototype .img_size {

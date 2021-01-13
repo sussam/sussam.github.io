@@ -1,5 +1,5 @@
 /* style sheet */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @media only screen and (max-width: 1000px) {
@@ -18,11 +18,11 @@
     
     body {
         overflow-x: hidden;
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Inter', sans-serif;
     }
     
     p {
-        font-family: 'PT Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
     }
 
     /* Navbar Styling */
@@ -46,7 +46,7 @@
     .navbar-nav {
      /*margin-right: 100px;*/
      font-size: .8rem;
-     font-weight: 700;
+     font-weight: 500;
     }
  
     .nav-item {
@@ -93,6 +93,11 @@
     position: relative;
 }
 
+.ai_description .intro-inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .intro-inner {
     height: 55vh;
     text-align: center;
@@ -129,13 +134,20 @@
         overflow: hidden;
     }
 
-    .works_view {
-        background-color: rgb(250, 245, 239) !important;
+    center_ {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
-    .ai_description {
+    /*.works_view {
+        background-color: rgb(250, 245, 239) !important;
+    }*/
+
+    /*.ai_description {
         background:  rgb(250, 245, 239);
-    }
+    }*/
 
     .works {
         background: rgb(250, 245, 239);
@@ -176,8 +188,49 @@
     }
 
     /* LPRC */
+    .ai_description .img_size {
+        max-width: 100%;
+    }
+
+    .ai_description img {
+        width: 100%;
+    }
+
+    .lprc_affinitydia, .img_size {
+        max-width: 100%;
+    }
+
+    #lprc_wireframes img,
+    .lprc_affinitydia img,
+    .ai_description img,
+    #lprc_storyboard img,
+    #lprc_palette img,
+    #lprc_paperproto img {
+        width: 100%;
+    }
+
     #lprc_wireframes .img_size {
-        max-width: 48%;
+        max-width: 100%;
+    }
+
+    #lprc_storyboard .img_size {
+        max-width: 100%;
+    }
+
+    #lprc_paperproto .img_size {
+        max-width: 100%;
+    }
+
+    #lprc_personas .img_size {
+        max-width: 100%;
+    }
+
+    #lprc_diagrams .img_size {
+        max-width: 100%;
+    }
+
+    #lprc_personas img {
+        width: 100%;
     }
     
     #lprc_prototype .img_size {
@@ -187,6 +240,17 @@
     #lprc_prototype img {
         padding-right: 15px;
         width: 100%;
+    }
+
+    #lprc_palette .img_size {
+        max-width: 100%;
+    }
+
+    .bordered_text {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #6BBCC0;
+        padding: 30px;
     }
 
     /*YANTRA*/
