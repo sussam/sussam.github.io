@@ -527,17 +527,22 @@ p {
 }
 /*Footer*/
 footer {
-    background-color: white;
-    text-transform: lowercase;
+    background-color: #F8F5F5;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
 }
 
 .contct {
+    font-weight: 300;
     padding: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .smed i {
     font-size: 20px;
-    padding: 10px;
+    padding-right: 10px;
     color: black;
 }
 
