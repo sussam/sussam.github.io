@@ -268,8 +268,13 @@ p {
     padding-bottom: 0px;
 }*/
 
-.works {
+/*.works {
     background: rgb(250, 245, 239);
+}*/
+
+.works .row_ {
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 .img-zoom {
@@ -299,6 +304,28 @@ p {
     height: auto;
 }
 
+.btn {
+    color: #6BBCC0;
+    border: 2px solid #6BBCC0;
+    background-color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 125px;
+}
+
+.btn:hover {
+    background-color: #6BBCC0;
+    color: white;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: #6BBCC0;
+    color: white;
+    
+}
+
 /* Sidebar */
 #sidenav {
     font-size: 12px;
@@ -315,6 +342,7 @@ p {
     color: #6BBCC0;
     font-weight: 400;
 }
+
 
 /* Project 1 */
 .project1_view {
@@ -515,7 +543,8 @@ p {
 }*/
 
 .aboutme img {
-    max-width: 100%;
+    max-width: 70%;
+    border-radius: 50px;
 }
 
 .aboutme h2 {

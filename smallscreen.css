@@ -150,8 +150,40 @@
         background:  rgb(250, 245, 239);
     }*/
 
-    .works {
+    /*.works {
         background: rgb(250, 245, 239);
+    }*/
+
+.works h5,
+.works h6 {
+    text-align: center;
+}
+
+    .button {
+        margin:auto;
+        display:block;
+    }
+
+    .btn {
+        color: #6BBCC0;
+        border: 2px solid #6BBCC0;
+        background-color: white;
+        font-size: 12px;
+        cursor: pointer;
+        border-radius: 25px;
+        width: 125px;
+        align-items: center;
+    }
+
+    .btn:hover {
+        background-color: #6BBCC0;
+        color: white;
+    }
+
+    .disabled {
+        pointer-events: none;
+        background-color: #6BBCC0;
+        color: white;
     }
 
     .sixthcard img{
@@ -272,6 +304,10 @@
     height: 100vh;
     background: rgb(240, 237, 235);
 }*/
+
+.aboutme img {
+    border-radius: 50%;
+}
 
 .aboutme #pad {
     padding-top: 0px;
