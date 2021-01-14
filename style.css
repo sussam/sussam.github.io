@@ -319,6 +319,14 @@ p {
     color: white;
 }
 
+.btn a {
+    color: #6BBCC0;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
 .disabled {
     pointer-events: none;
     background-color: #6BBCC0;
@@ -554,6 +562,13 @@ p {
 .aboutme h2 {
     font-weight: 600;
 }
+
+/*Next button*/
+#prev_next_btn {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 /*Footer*/
 footer {
     background-color: #F8F5F5;

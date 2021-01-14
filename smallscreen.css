@@ -175,9 +175,18 @@
         align-items: center;
     }
 
-    .btn:hover {
+    
+    button:hover {
         background-color: #6BBCC0;
         color: white;
+    }
+
+    button a {
+        color: #6BBCC0;
+    }
+
+    button a:hover {
+        text-decoration: none;
     }
 
     .disabled {
@@ -320,6 +329,12 @@
 .aboutme h2 {
     font-weight: 600;
 }
+
+#prev_next_btn {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 /*Footer*/
 footer {
     background-color: #F8F5F5;
