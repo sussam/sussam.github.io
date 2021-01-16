@@ -295,6 +295,30 @@
         padding: 30px;
     }
 
+    /*Sublist */
+    #sublist_interviews img,
+    #sublist_competition img,
+    #sublist_personas img,
+    #sublist_flow img {
+        width: 100%;
+    }
+
+    #sublist_interviews .img_size {
+        max-width: 100%;
+    }
+
+    #sublist_personas .img_size {
+        max-width: 100%;
+    }
+
+    #sublist_flow .img_size {
+        max-width: 100%;
+    }
+    
+
+
+
+
     /*YANTRA*/
     #yantra_initial img {
         max-width: 100%;

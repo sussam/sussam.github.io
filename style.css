@@ -451,6 +451,29 @@ p {
     background: #410e02;
 }*/
 
+#sublist_interviews img,
+#sublist_competition img,
+#sublist_personas img,
+#sublist_flow img {
+    width: 100%;
+}
+
+#sublist_interviews .img_size {
+    max-width: 50%;
+}
+
+#sublist_competition .img_size {
+    max-width: 100%;
+}
+
+#sublist_personas .img_size {
+    max-width: 100%;
+}
+
+#sublist_flow .img_size {
+    max-width: 80%;
+}
+
 /*LPRC*/
 .ai_description .img_size {
     max-width: 100%;
