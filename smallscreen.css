@@ -299,7 +299,8 @@
     #sublist_interviews img,
     #sublist_competition img,
     #sublist_personas img,
-    #sublist_flow img {
+    #sublist_flow img,
+    #sublist_wireframe img {
         width: 100%;
     }
 
@@ -315,6 +316,17 @@
         max-width: 100%;
     }
     
+    #sublist_wireframe .img_size {
+        max-width: 100%;
+    }
+    #sublist_prototype img {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    
+    #sublist_prototype .img_size {
+        max-width: 100%;
+    }
 
 
 
