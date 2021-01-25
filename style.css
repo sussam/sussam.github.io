@@ -17,7 +17,7 @@ body {
 p {
     /*font-family: 'Inter', sans-serif;*/
     font-family: 'Poppins', sans-serif;
-    color: gray;
+    font-weight: 300;
 }
 
 /* Navbar Styling */
@@ -240,9 +240,10 @@ p {
 }
 
 #pad {
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     position: relative;
     overflow: hidden;
 }
@@ -373,6 +374,12 @@ p {
     font-weight: 700;
 }
 
+h6 {
+    font-weight: 200;
+    color: gray;
+ text-transform: uppercase;
+}
+
 #personas {
     max-width: 50%;
 }
@@ -442,9 +449,6 @@ p {
     background: #9e4940;
 }*/
 
-#ai_learnings {
-    background: rgb(253, 247, 247);
-}
 
 /*Sublist Edited */
 /*#sublist_problem {
@@ -452,7 +456,6 @@ p {
 }*/
 
 #sublist_interviews img,
-#sublist_competition img,
 #sublist_personas img,
 #sublist_flow img,
 #sublist_wireframe img {
@@ -461,6 +464,10 @@ p {
 
 #sublist_interviews .img_size {
     max-width: 50%;
+}
+
+#sublist_competition img {
+    width: 100%;
 }
 
 #sublist_competition .img_size {
