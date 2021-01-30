@@ -150,11 +150,20 @@ p {
     text-align: left;
 }
 
+#landing-inner img {
+    width: 100%;
+}
+
+#landing-inner .img_size {
+    max-width: 50%;
+}
+
 .portrait {
     width: 115%;
     margin-top: -50px;
     max-width: 100%;
 }
+
 
 /*Arrow*/
 #arrow_down {
