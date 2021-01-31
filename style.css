@@ -521,7 +521,14 @@ h6 {
 .fling-minislide img:nth-child(1){animation-delay:6s;}
 
 
+#sublist_prototype video {
+    width: 30%;
+    padding-right: 35px;
+}
 
+#sublist_design .img_size {
+    max-width: 75%;
+}
 
 /*LPRC*/
 .ai_description .img_size {
@@ -605,12 +612,8 @@ max-width: 100%;
     max-width: 100%;
 }
 
-#lprc_prototype .img_size {
-    max-width: 40%;
-}
-
-#sublist_design .img_size {
-    max-width: 75%;
+#lprc_vid video {
+    width: 100%;
 }
 
 /*Google Photos*/
