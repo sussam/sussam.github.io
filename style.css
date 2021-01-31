@@ -538,7 +538,7 @@ h6 {
 .ai_description img,
 #lprc_storyboard img,
 #lprc_palette img,
-#lprc_paperproto img {
+#lprc_paperproto img{
     width: 100%;
 }
 
@@ -567,12 +567,16 @@ h6 {
 }
 
 #lprc_prototype img {
-    padding-right: 15px;
+    padding-bottom: 20px;
     width: 100%;
 }
 
+#lprc_prototype .img_size {
+max-width: 100%;
+}
+
 #lprc_palette .img_size {
-    max-width: 55%;
+    max-width: 30%;
 }
 
 .bordered_text {
