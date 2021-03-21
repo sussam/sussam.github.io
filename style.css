@@ -616,6 +616,15 @@ max-width: 100%;
     width: 100%;
 }
 
+/*Passionfruit*/
+#passionfruit_observations .img_size {
+    max-width: 100%;
+}
+
+#passionfruit_observation img {
+    width: 100%;
+}
+
 /*Google Photos*/
 
 #google_solution img {

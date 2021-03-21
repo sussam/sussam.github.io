@@ -358,6 +358,15 @@ h6 {
         padding-bottom: 15px;
     }
 
+    /*Passionfruit*/
+    #passionfruit_observations .img_size {
+        max-width: 100%;
+    }
+    
+    #passionfruit_observation img {
+        width: 100%;
+    }
+
     /*Google Photos*/
     #google_solution img {
         padding-bottom: 15px;
