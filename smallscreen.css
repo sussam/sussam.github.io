@@ -368,9 +368,20 @@ h6 {
     }
 
     .whitebackground {
-        background-color:rgb(250, 249, 249);
+        background-color:white;
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .ssbackground_title {
+        background-color: rgb(250, 249, 249);
+        padding-top: 50px;
+        padding-bottom: 100px; 
+    }
+
+    .sswhite_margins {
+        margin-left: 0%; 
+        margin-right: 0%;
     }
 
     /*Google Photos*/
