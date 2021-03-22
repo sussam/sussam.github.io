@@ -367,6 +367,14 @@ h6 {
         width: 100%;
     }
 
+    #passionfruit_competition .img_size {
+        max-width: 100%;
+    }
+
+    #passionfruit_competition img {
+        width: 100%;
+    }
+
     .whitebackground {
         background-color:white;
         padding-top: 50px;

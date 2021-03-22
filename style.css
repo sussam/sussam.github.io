@@ -625,6 +625,14 @@ max-width: 100%;
     width: 100%;
 }
 
+#passionfruit_competition .img_size {
+    max-width: 100%;
+}
+
+#passionfruit_competition img {
+    width: 100%;
+}
+
 .whitebackground {
     background-color:rgb(250, 249, 249);
     padding-top: 50px;
