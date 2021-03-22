@@ -367,6 +367,12 @@ h6 {
         width: 100%;
     }
 
+    .whitebackground {
+        background-color:rgb(250, 249, 249);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     /*Google Photos*/
     #google_solution img {
         padding-bottom: 15px;
