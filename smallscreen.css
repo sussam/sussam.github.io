@@ -300,9 +300,23 @@ h6 {
 
     .bordered_text {
         border-style: solid;
+        border-width: 1px;
         border-radius: 10px;
         border-color: #6BBCC0;
         padding: 30px;
+    }
+
+    .bordered_text_gray {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgb(250, 249, 249);
+        background-color: rgb(250, 249, 249);
+        padding: 30px;
+        margin-bottom: 5%;
+    }
+
+    .border_shadow {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
     /*Sublist */
@@ -372,6 +386,14 @@ h6 {
     }
 
     #passionfruit_competition img {
+        width: 100%;
+    }
+
+    #passionfruit_flow .img_size {
+        max-width: 100%;
+    }
+    
+    #passionfruit_flow img {
         width: 100%;
     }
 

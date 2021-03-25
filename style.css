@@ -384,7 +384,7 @@ p {
 }
 
 h6 {
-    font-weight: 200;
+    font-weight: 300;
     color: gray;
  text-transform: uppercase;
 }
@@ -589,8 +589,23 @@ max-width: 100%;
 .bordered_text {
     border-style: solid;
     border-radius: 10px;
+    border-width: 1px;
     border-color: #6BBCC0;
     padding: 30px;
+}
+
+.bordered_text_gray {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(250, 249, 249);
+    background-color: rgb(250, 249, 249);
+    padding: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.border_shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /*Yantra*/
@@ -630,6 +645,22 @@ max-width: 100%;
 }
 
 #passionfruit_competition img {
+    width: 100%;
+}
+
+#passionfruit_flow .img_size {
+    max-width: 100%;
+}
+
+#passionfruit_flow img {
+    width: 100%;
+}
+
+#passionfruit_wireframes .img_size {
+    max-width: 100%;
+}
+
+#passionfruit_wireframes img {
     width: 100%;
 }
 
