@@ -404,7 +404,6 @@ h6 {
     }
 
     .ssbackground_title {
-        background-color: rgb(250, 249, 249);
         padding-top: 50px;
         padding-bottom: 100px; 
     }
@@ -419,6 +418,29 @@ h6 {
         padding-bottom: 15px;
         max-width: 100%;
     }
+    
+    /* The Dish */
+    #thedish_affinity .img_size,
+    #thedish_wireframes .img_size,
+    #thedish_brand .img_size,
+    #thedish_prototype .img_size {
+        max-width:100%;
+    }
+
+    #thedish_affinity img,
+    #thedish_wireframes img,
+    #thedish_prototype img {
+        width: 100%;
+    }
+
+    #thedish_brand img {
+        width: 50%;
+    }
+
+    #thedish_video video {
+        width: 100%;
+    }
+        
 
     /*About*/
 /*.aboutme {
